@@ -1,1 +1,39 @@
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial,sans-serif;
+}
 
+header{
+    background:#0055cc;
+    padding:20px;
+    text-align:center;
+}
+
+#search{
+    width:300px;
+    max-width:90%;
+    padding:10px;
+    border-radius:8px;
+    border:none;
+}
+
+#characters{
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.card{
+    background:#222;
+    border-radius:15px;
+    width:280px;
+    padding:20px;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
